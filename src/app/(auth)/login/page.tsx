@@ -7,7 +7,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { User } from "@prisma/client";
 import { useState } from "react";
 import LoadingPage from "@/components/Loading/Loading";
-import "./login.css";
+import "./Login.css";
 
 type TUser = {
   email: string;
