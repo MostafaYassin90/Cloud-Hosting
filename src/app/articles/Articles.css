@@ -1,0 +1,31 @@
+.articles {
+  background-color: #eee;
+  padding: 30px 0;
+  height: calc(110vh - 130px);
+}
+
+.articles .container {
+  height: calc(100vh - 130px);
+}
+
+.articles .container .holder-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.articles .container .holder-articles .article {
+  padding: 20px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: #ddd;
+  position: relative;
+}
+
+.articles .container .holder-articles .article p.desc {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

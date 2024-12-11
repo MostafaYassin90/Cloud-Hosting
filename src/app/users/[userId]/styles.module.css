@@ -1,0 +1,18 @@
+.singleUser {
+  padding: 40px 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.user {
+  background-color: #d6d6d6;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

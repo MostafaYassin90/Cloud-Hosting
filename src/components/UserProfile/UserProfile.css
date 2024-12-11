@@ -1,0 +1,11 @@
+.userProfile {
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background-color: #000;
+
+}
+.userProfile h2 {
+  color: #fff;
+  font-size: 17px;
+}

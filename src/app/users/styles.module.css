@@ -1,0 +1,31 @@
+.title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.user {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #d6d6d6;
+}
+
+.btn {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 4px 8px;
+  margin: 10px auto 0;
+}
+
+/* .name {}
+
+.email {}
+
+.address {}
+
+.company {}
+
+.website {} */
